@@ -1,0 +1,54 @@
+// css normalize
+// @import '../css/normalize.css';
+@import '../scss/variables.scss';
+
+// tailwindcss
+// @import 'tailwindcss/base';
+// @import 'tailwindcss/components';
+// @import 'tailwindcss/utilities';
+
+body {
+  background-color: theme('colors.gray.50');
+  color: theme('colors.slate.600');
+  // min-width: 100vw;
+  // min-height: 100vh;
+}
+body, html {
+  height: 100%;
+  width: 100%;
+}
+
+span {
+  color: theme('colors.gray.500');
+}
+
+h1, h2, h3, h4, h5, h6, p, .h1, .h2, .p, .p-xs {
+  font-weight: 700;
+}
+
+h1, .h1, .fs-1 {
+  font-size: 24px;
+}
+
+h2, .h2, .fs-2 {
+  font-size: 16px;
+}
+
+p, .p, .fs-3 {
+  font-size: 14px;
+}
+
+.p-xs, caption {
+  font-size: 12px;
+}
+
+// 按鈕樣式
+// .UButton-outline{
+//   background-color: white;
+//   border: solid 1px $phototaxisBlue-500;
+//   color: $phototaxisBlue-500;
+//   &:hover{
+//     color: white;
+//   }
+// }
+
